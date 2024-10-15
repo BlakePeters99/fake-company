@@ -1,10 +1,12 @@
 const buttonElement = document.querySelector('#button1');
-const listElement = document.querySelector('.sidebar');
+const listElement = document.getElementById('sidebar');
 
 buttonElement.addEventListener('click', () => {
-    //const element = document.createElement('li');
-    //element.textContent = 'test';
     console.log("it's alive!!");
-    //listElement.appendChild(element);
-    
+    if (listElement.style.display === 'none') {
+        listElement.style.display = 'block'
+    }
+    else {
+        listElement.style.display = 'none'
+    }
 });
