@@ -1,0 +1,20 @@
+#button1 {
+    color: black;
+    border: 2px solid #04AA6D;
+    width:280px;
+    height:200px;
+    background-size: cover;
+    background-position: absolute;
+    background-image: url("https://static.wixstatic.com/media/f00cb0_a3acb8262716490783fd83dc1bd82516~mv2_d_4752_3168_s_4_2.jpeg/v1/fit/w_2500,h_1330,al_c/f00cb0_a3acb8262716490783fd83dc1bd82516~mv2_d_4752_3168_s_4_2.jpeg");
+  }
+  .sidebar {
+    width: 400px;
+    display: none;
+  }
+  #title {
+    text-align: center;
+  }
+
+  .popout {
+    
+  }
