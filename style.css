@@ -18,7 +18,7 @@ body {
 .sidebar {
     list-style: none;
     opacity: 0;
-    width: 120px;
+    width: 200px;
     transition: width .75s;
     -webkit-transition: width .75s;
     -moz-transition: width .75s;
